@@ -4,7 +4,11 @@ __pycache__/
 .pytest_cache/
 .ruff_cache/
 .mypy_cache/
-reports/gameday/
+reports/gameday/*
+!reports/gameday/G2_overload_storm.png
 reports/*.json
+!reports/scoreboard.json
 reports/*.png
 reports/cache/
+reports/experiments/
+.mplconfig/
